@@ -9,7 +9,7 @@ trigger:
 pool:
   name: "Self Hosted Pool"
   vmImage: ubuntu-latest
-  demands: Agent.Name -equals "sh-agent"
+  demands: Agent.Name -equals sh-agent
 
 variables:
   buildConfiguration: 'Release'
