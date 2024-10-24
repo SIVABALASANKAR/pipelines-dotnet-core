@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: "Self Hosted Pool"
+  name: "Self Hosted Agent Pool"
   vmImage: ubuntu-latest
 
 variables:
